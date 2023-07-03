@@ -8,7 +8,7 @@ This is an implementation of Windows Active Directory within a Lab for Azure.<br
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Active Directory
 - Powershell
 - Server Manager
