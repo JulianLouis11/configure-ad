@@ -1,56 +1,61 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/CrLyhDS.png" alt="Active Directory logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>Implementing Active Directory</h1>
+This is an implementation of Windows Active Directory.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Active Directory
+- Powershell
+- 
+  
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites to Install</h2>
+<h2>List of things done in Active Directory</h2>
 
-- Enable/ Install (Internet Information Services IIS
-- PHP Manager For IIS
-- Rewrite Module
-- PHP 7.3.8
-- VC_redist.x86.exe
-- MYSQL 5.5.62
+- Server Manager (Domain Controller)
+- Powershell coding for making new users
+- Users created for Active Directory Management
+- Creating new Organizational Units
 
-<h2>Installation Steps</h2>
+<h2>Implementing Active Directory</h2>
 
 <p>
-<img src="https://i.imgur.com/RjCfP1P.png"/>
+<img src="https://i.imgur.com/vGaankq.png"/>
 </p>
 <p>
-Control Panel -> Programs -> Turn Windows features on or off. Next, scroll to Internet Information Sevices to check it then expand it to World Wide Web Services -> Application Development Features & check CGI. Collapse Application Development Features -> Common HTTP Features check all options & click OK.
+Active Directory, "Server Manager" within the domain controller to configure roles & features.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zQl3IwM.png" height="80%" width="80%" alt="Powershell"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Implementing "PowerShell"; coding within the domain controller to make more users for active directory.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ASkRnXz.png" height="80%" width="80%" alt="Organizational Unit"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Making new "Organizational Units".
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/BiiMcOg.png" height="80%" width="80%" alt="Organizational Unit"/>
+</p>
+<p>
+Successfully created over 1000 users for Active Directory".
+</p>
+<br />
+
