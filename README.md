@@ -3,7 +3,7 @@
 </p>
 
 <h1>Implementing Active Directory</h1>
-This is an implementation of Windows Active Directory.<br />
+This is an implementation of Windows Active Directory within a Lab for Azure.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -11,7 +11,7 @@ This is an implementation of Windows Active Directory.<br />
 - Microsoft Azure (Virtual Machines/Compute)
 - Active Directory
 - Powershell
-- 
+- Server Manager
   
 
 <h2>Operating Systems Used </h2>
